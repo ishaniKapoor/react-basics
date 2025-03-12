@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Main from './components/Main';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
+import logo from "./../public/logo192.png";
+
+function Logo(props){
+  const userPic = <img src={logo} />
+  return userPic;
+}
 function App(props) {
   return (
     <div>
-      <Header name="Anna" color="purple"/>
-      <Main greet="Howdy"/>
-      <Sidebar greet="Hi"/>
+      <h1>Hello World!</h1>
+      <Logo />
     </div>
   );
 }
