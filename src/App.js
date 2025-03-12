@@ -1,8 +1,8 @@
-import Promo from "./components/Promo";
+import TextInputWithFocusButton from "./components/TextInputWithFocusButton";
 
 function App(props) {
   return (
-    <Promo />
+    <TextInputWithFocusButton />
   );
 }
 
