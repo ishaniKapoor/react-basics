@@ -23,3 +23,5 @@ function AppFetchPractice(){
         <h1>Data pending...</h1>
     )
 };
+
+export default AppFetchPractice;
